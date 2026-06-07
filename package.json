@@ -1,0 +1,73 @@
+{
+  "name": "@arminmajerie/date-time-picker-solid",
+  "version": "1.1.2",
+  "packageManager": "pnpm@10.12.1+sha512.f0dda8580f0ee9481c5c79a1d927b9164f2c478e90992ad268bbb2465a736984391d6333d2c327913578b2804af33474ca554ba29c04a8b13060a717675ae3ac",
+  "description": "An interactive Date and Time picker for SolidJS. ",
+  "author": "Aximsoft India Pvt Ltd",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "style": "dist/style.css",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "solid",
+    "calendar",
+    "calendar-picker",
+    "SolidJs",
+    "solidJs calendar",
+    "date picker",
+    "date-picker",
+    "time picker",
+    "rangepicker",
+    "date time picker",
+    "solid-rangepicker",
+    "solidjs-range-picker",
+    "solidjs-date-picker",
+    "solidJs date picker",
+    "solidJs time picker",
+    "solidjs-calendar-picker",
+    "solidJs date time picker",
+    "Aximsoft"
+  ],
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "prepare": "pnpm run build",
+    "preview": "vite preview"
+  },
+  "homepage": "https://github.com/aximsoftDevTeam/date-time-picker-solid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aximsoftDevTeam/date-time-picker-solid"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.21"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.9.13"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "sass": "^1.100.0",
+    "solid-js": "1.9.13",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16",
+    "vite-plugin-dts": "^5.0.2",
+    "vite-plugin-solid": "^2.11.12"
+  }
+}
