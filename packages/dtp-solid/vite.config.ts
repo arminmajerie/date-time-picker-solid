@@ -24,7 +24,4 @@ export default defineConfig({
     emptyOutDir: true,
   },
   plugins: [solidPlugin(), dts({ insertTypesEntry: true })],
-  server: {
-    port: 3000,
-  },
 });

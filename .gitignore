@@ -1,5 +1,8 @@
-/node_modules
-dist
-/pnpm-lock.yaml
-/dist
-/arminmajerie-date-time-picker-solid-1.1.2.tgz
+node_modules
+pnpm-lock.yaml
+*.tgz
+
+packages/*/dist
+packages/*/node_modules
+
+.idea
