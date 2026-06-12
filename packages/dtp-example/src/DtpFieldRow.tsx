@@ -7,7 +7,7 @@ import {
   type JSX,
 } from "solid-js";
 import { Portal } from "solid-js/web";
-import { DateTimePicker, parseDateTimeFieldValue } from "@arminmajerie/dtp-solid";
+import { DateTimePicker, parseDateTimeFieldValue } from "@arminmajerie/date-time-picker-solid";
 
 import { computePopupPosition, type PopupPlacement } from "./anchorPosition";
 

@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [solidPlugin()],
   resolve: {
     alias: {
-      "@arminmajerie/dtp-solid": path.resolve(__dirname, "../dtp-solid/index.ts"),
+      "@arminmajerie/date-time-picker-solid": path.resolve(__dirname, "../dtp-solid/index.ts"),
     },
   },
   server: {

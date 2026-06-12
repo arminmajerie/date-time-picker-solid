@@ -1,6 +1,6 @@
 {
-  "name": "@arminmajerie/dtp-solid",
-  "version": "1.1.2",
+  "name": "@arminmajerie/date-time-picker-solid",
+  "version": "1.1.9",
   "description": "An interactive Date and Time picker for SolidJS.",
   "author": "Aximsoft India Pvt Ltd",
   "main": "dist/index.umd.js",
