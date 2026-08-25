@@ -27,6 +27,7 @@
     "audit:check": "npm audit --audit-level=low --registry=https://registry.npmjs.org/"
   },
   "overrides": {
+    "solid-js": "1.9.15",
     "nanoid": "3.3.18"
   },
   "devDependencies": {
