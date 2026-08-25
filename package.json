@@ -32,5 +32,12 @@
   },
   "devDependencies": {
     "nanoid": "3.3.18"
+  },
+  "allowScripts": {
+    "esbuild": true,
+    "@parcel/watcher": true,
+    "@swc/core": true,
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.1": true
   }
 }
